@@ -153,3 +153,56 @@ header {
     font-weight: bold;
     color: white;
 }
+
+.features-section {
+    margin: 100px 0px 30px;
+}
+
+.features-content-one {
+    border-radius: 15px;
+    height: 420px;
+    background-image: url('../image/image1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.features-content-two {
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 200px;
+    background-image: url('../image/image2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.features-content-three {
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+    height: 200px;
+    background-image: url('../image/image3.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features-section .features-heading {
+    font-size: 20px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+}
+
+.features-section .features-tagline {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: -10px;
+}

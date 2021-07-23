@@ -41,16 +41,17 @@
         align-items: center;
     }
     .header-image img {
-        width: 86%;
+        width: 85%;
+        position: relative;
     }
     @media only screen and (min-width: 375px) {
         .header-image img {
-            width: 53%;
+            width: 50%;
         }
     }
-
-
-    
+    .header-image .tag {
+        display: none;
+    }
 }
 
 /*Small Devices*/
@@ -99,6 +100,42 @@
         width: 55%;
         margin-top: -20px;
     }
+    .header-image .tag {
+        position: absolute;
+        left: 120px;
+        bottom: 10px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: #DF1C1C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-image .tag .tag-content {
+        background-color: transparent;
+        padding: 11px;
+        border-radius: 50%;
+        border: 2px dashed white;
+    }
+    .header-image .tag .tag-content h4 {
+        font-size: 17px;
+        color: white;
+    }
+    .header-image .tag .tag-content h4 span {
+        font-size: 30px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: 500;
+    }
+    .header-image .tag .tag-content h5 {
+        margin: 0;
+        margin-top: -15px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        color: white;
+        font-size: 10px;
+    }
 }
 
 /*Medium Devices*/
@@ -121,6 +158,42 @@
     .header-content h3 {
         font-size: 41px;
     }
+    .header-image .tag {
+        position: absolute;
+        left: 9px;
+        bottom: -20px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        background-color: #DF1C1C;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-image .tag .tag-content {
+        background-color: transparent;
+        padding: 16px;
+        border-radius: 50%;
+        border: 2px dashed white;
+    }
+    .header-image .tag .tag-content h4 {
+        font-size: 15px;
+        color: white;
+    }
+    .header-image .tag .tag-content h4 span {
+        font-size: 34px;
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+    }
+    .header-image .tag .tag-content h5 {
+        margin: 0;
+        margin-top: -17px;
+        letter-spacing: 5px;
+        font-weight: bold;
+        color: white;
+        font-size: 12px;
+    }
 }
 
 /*large Devices*/
@@ -133,4 +206,13 @@
 
 /*xlg (1200-1400)*/
 
-@media only screen and (min-width: 1200px) and (max-width: 1400px) {}
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .header-image img {
+        width: 85%;
+        position: relative;
+    }
+
+
+
+
+}
