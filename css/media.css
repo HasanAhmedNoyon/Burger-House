@@ -16,17 +16,37 @@
         padding: 2px 0px;
         text-align: center;
     }
-    .header-content{
+    .header-content {
         margin-top: 20px;
     }
     .header-content p {
         font-size: 12px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10% 0px;
     }
     .header-content h1 {
-        font-size: 55px;
+        font-size: 45px;
+        text-align: center;
     }
     .header-content h3 {
-        font-size: 35px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .header-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-image img {
+        width: 86%;
+    }
+    @media only screen and (min-width: 375px) {
+        .header-image img {
+            width: 53%;
+        }
     }
 }
 
@@ -48,19 +68,34 @@
     .navbar-nav .nav-item {
         text-align: center;
     }
-    .header-content{
+    .header-content {
         margin-top: 20px;
     }
     .header-content p {
         font-size: 12px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 10% 0px;
     }
     .header-content h1 {
-        font-size: 55px;
+        font-size: 48px;
+        text-align: center;
     }
     .header-content h3 {
-        font-size: 35px;
+        font-size: 28px;
+        text-align: center;
     }
-}
+    .header-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-image img {
+        width: 55%;
+        margin-top: -20px;
+    }
 }
 
 /*Medium Devices*/
@@ -73,6 +108,15 @@
     }
     .navbar-nav .nav-item {
         text-align: center;
+    }
+    .header-content p {
+        font-size: 15px;
+    }
+    .header-content h1 {
+        font-size: 68px;
+    }
+    .header-content h3 {
+        font-size: 41px;
     }
 }
 

@@ -109,10 +109,22 @@ header {
 .header-image {
     position: relative;
 }
+.header-image img{
+    object-fit: cover;
+}
 
-.header-image .tag {}
+/* .header-image .tag h4 span {
+    color: white;
+    font-size: 40px;
+} */
 
-.header-image .tag img {
-    height: 50%;
-    width: 50%;
+.header-image .tag {
+    position: absolute;
+    left: 0;    
+    bottom: 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: red;
+
 }
