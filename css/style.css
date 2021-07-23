@@ -155,7 +155,7 @@ header {
 }
 
 .features-section {
-    margin: 100px 0px 30px;
+    margin: 100px 0px 50px;
 }
 
 .features-content-one {
@@ -205,4 +205,90 @@ header {
     font-weight: 500;
     font-size: 35px;
     margin-top: -10px;
+}
+
+/*Order Now Section*/
+
+.order-now-section {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.order-now-section .heading a {
+    padding: 10px;
+    background-color: #f7ae20;
+    color: #3d2514;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.order-now-section .heading h1 {
+    color: #3d2514;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.order-now-section .heading p {
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 0px 10%;
+}
+
+.order-now-section .order-content {
+    text-align: center;
+    height: 500px;
+    
+}
+
+.order-now-section .order-content .order-image1{
+    height: 50%;
+    background-image: url('../image/burger1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.order-now-section .order-content .order-image2{
+    height: 50%;
+    background-image: url('../image/burger2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.order-now-section .order-content .order-image3{
+    height: 50%;
+    background-image: url('../image/burger3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.order-now-section .order-content h3 {
+    color: #3d2514;
+    font-size: 29px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.order-now-section .order-content p {
+    font-family: 'Montserrat', sans-serif;
+    color: #3d2514;
+    font-size: 11px;
+    font-weight: 200;
+}
+
+.order-now-section .order-content a {
+    padding: 5px 20px;
+    color: white;
+    background-color: #d51515;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 0px;
 }
