@@ -153,10 +153,12 @@ header {
     font-weight: bold;
     color: white;
 }
+/*features Section Start*/
 
 .features-section {
     margin: 100px 0px 50px;
 }
+
 
 .features-content-one {
     border-radius: 15px;
@@ -165,38 +167,94 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 20px;
-    padding-left: 20px;
+    position: relative;
+   
+}
+
+.features-content-one::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #3d25146e;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: .5s all ease-in-out;
+}
+
+.features-content-one:hover::before{
+    width: 50%;
+    
+
 }
 
 .features-content-two {
-    padding-left: 20px;
-    padding-top: 20px;
     height: 200px;
+    margin-bottom: 20px;
     background-image: url('../image/image2.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 20px;
     border-radius: 15px;
+    position: relative;
 }
 
+.features-content-two::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #3d25146e;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: .5s all ease-in-out;
+}
+
+.features-content-two:hover::before{
+    width: 50%;
+}
+
+
+
 .features-content-three {
-    padding-left: 20px;
-    padding-top: 20px;
     border-radius: 15px;
     height: 200px;
     background-image: url('../image/image3.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+
+.features-content-three::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0%;
+    background-color: #3d25146e;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: .5s all ease-in-out;
+}
+
+.features-content-three:hover::before{
+    width: 50%;
+}
+
 
 .features-section .features-heading {
     font-size: 20px;
     color: white;
     font-family: 'Bebas Neue', cursive;
     font-weight: 300;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .features-section .features-tagline {
@@ -204,24 +262,29 @@ header {
     font-family: 'Bebas Neue', cursive;
     font-weight: 500;
     font-size: 35px;
-    margin-top: -10px;
+    margin-top: -30px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 /*Order Now Section*/
 
 .order-now-section {
-    margin: 50px 0px;
+    margin: 100px 0px 30px;
     text-align: center;
 }
 
 .order-now-section .heading a {
-    padding: 10px;
+    padding: 10px 15px;
     background-color: #f7ae20;
     color: #3d2514;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+}
+.order-now-section .heading a:focus{
+    border: none;
 }
 
 .order-now-section .heading h1 {
@@ -239,34 +302,15 @@ header {
 
 .order-now-section .order-content {
     text-align: center;
-    height: 500px;
+    padding: 20px 10px;
     
 }
-
-.order-now-section .order-content .order-image1{
-    height: 50%;
-    background-image: url('../image/burger1.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+.order-now-section .order-content:hover{
+    border: 1px solid rgba(190, 190, 190, 0.5);
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px 5px rgba(135,135,128,0.5);
+    transition: .1s all ease;
 }
-
-.order-now-section .order-content .order-image2{
-    height: 50%;
-    background-image: url('../image/burger2.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.order-now-section .order-content .order-image3{
-    height: 50%;
-    background-image: url('../image/burger3.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
 
 .order-now-section .order-content h3 {
     color: #3d2514;
@@ -279,7 +323,7 @@ header {
 .order-now-section .order-content p {
     font-family: 'Montserrat', sans-serif;
     color: #3d2514;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 200;
 }
 
@@ -292,3 +336,13 @@ header {
     margin-top: 10px;
     border-radius: 0px;
 }
+
+.order-now-section .order-content a:hover{
+    background-color: transparent;
+    border: 2px solid #d51515;
+    color: #d51515;
+    font-weight: bold;
+}
+
+
+/*Events Section Start*/
