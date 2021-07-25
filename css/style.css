@@ -350,12 +350,13 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .events-content {
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .events-content h3 {
@@ -379,6 +380,21 @@ header {
     font-size: 21px;
     padding-top: 20px;
     font-weight: lighter;
+}
+
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    text-align: left;
+    padding: 25px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span{
+    background: #ffc107;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
 }
 
 /*Reservation Section*/
@@ -454,7 +470,8 @@ input {
     background-size: cover;
 }
 
-.footer-bg img {
+
+.footer-left-side img {
     padding-top: 50px;
     padding-left: 30px;
     width: 65%;
@@ -462,13 +479,13 @@ input {
 
 .footer-left-side p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: #fff;
     padding-top: 45px;
     padding-left: 20px;
 }
 
-.footer-bg .copyright {
+.footer-left-side .copyright {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -501,15 +518,15 @@ input {
     margin-right: 20px;
 }
 
-.footer-right-side .icon{
+.footer-right-side .icon {
     position: absolute;
     right: 0;
     bottom: 0;
     padding-right: 20px;
     padding-bottom: 20px;
-
 }
-.footer-right-side .icon i{
+
+.footer-right-side .icon i {
     background-color: white;
     font-size: 25px;
     height: 40px;
@@ -519,7 +536,8 @@ input {
     border-radius: 50%;
     cursor: pointer;
 }
-.footer-right-side .icon i:hover{
+
+.footer-right-side .icon i:hover {
     color: white;
     border: 1px solid white;
     background-color: transparent;

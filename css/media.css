@@ -44,13 +44,70 @@
         width: 85%;
         position: relative;
     }
+    .header-image .tag {
+        display: none;
+        padding: 0px;
+    }
+    .events-content h3 {
+        font-size: 20px;
+    }
+    .events-content h1 {
+        font-size: 25px;
+    }
+    .events-content p {
+        font-size: 15px;
+    }
+    .reservation-section .heading h3 {
+        font-size: 20px;
+    }
+    .reservation-section .heading h1 {
+        font-size: 25px;
+    }
+    .footer-left-side {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-left-side img {
+        padding-top: 65px;
+        padding-left: 10px;
+    }
+    .footer-left-side p {
+        padding: 10px;
+        text-align: left;
+    }
+    .footer-left-side .copyright {
+        bottom: 15%;
+        display: flex;
+        width: 100%;
+    }
+    .footer-left-side .copyright p {
+        font-size: 13px;
+        margin: 0 auto;
+    }
+    .footer-right-side .icon {
+        bottom: 16%;
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-right-side .icon i {
+        margin-right: 10px;
+    }
+    .footer-right-side {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
     @media only screen and (min-width: 375px) {
         .header-image img {
             width: 50%;
         }
-    }
-    .header-image .tag {
-        display: none;
     }
 }
 
@@ -136,6 +193,31 @@
         color: white;
         font-size: 10px;
     }
+    .events-content h3 {
+        font-size: 20px;
+    }
+    .events-content h1 {
+        font-size: 25px;
+    }
+    .events-content p {
+        font-size: 15px;
+    }
+    .footer-left-side .copyright {
+        bottom: 15%;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-right-side .icon {
+        bottom: 16%;
+        width: 100%;
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-right-side .icon i {
+        margin-right: 10px;
+    }
 }
 
 /*Medium Devices*/
@@ -194,6 +276,15 @@
         color: white;
         font-size: 12px;
     }
+    .events-content h3 {
+        font-size: 25px;
+    }
+    .events-content h1 {
+        font-size: 29px;
+    }
+    .events-content p {
+        font-size: 15px;
+    }
 }
 
 /*large Devices*/
@@ -211,8 +302,4 @@
         width: 85%;
         position: relative;
     }
-
-
-
-
 }
